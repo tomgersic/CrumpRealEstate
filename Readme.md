@@ -12,7 +12,7 @@ You will then need to set up the two objects used in this demo: Property and Rep
 
 The sample data used in the webinar is included in the sampledata folder.
 
-##Or Salesforce.com
+####Or Salesforce.com
 
 Note: there's no particular reason you'd have to use Database.com here instead of Salesforce.com. If you have a Salesforce.com org you'd prefer to work with, the app will work just fine there too.
 
@@ -25,7 +25,7 @@ For more information about the Salesforce Mobile SDK, try these links on for siz
 * http://blogs.developerforce.com/developer-relations/2012/06/tom-gersic-on-the-mobile-sdks-smartstore.html
 
 #Help!
-If you have questions about or issues with this demo, the best way to get help is to reach out on twitter to [@tomgersic](https://twitter.com/#!/tomgersic) or [@shawnawol](https://twitter.com/#!/shawnawol).
+If you have questions about or issues with this demo, the best way to get help is to reach out on Twitter to [@tomgersic](https://twitter.com/#!/tomgersic) or [@shawnawol](https://twitter.com/#!/shawnawol).
 
 #More Help!
 I work for [Model Metrics](http://www.modelmetrics.com/), a [Salesforce.com](http://www.salesforce.com) company. We do mobile apps, so if you need a mobile app, well, that's what we do!
