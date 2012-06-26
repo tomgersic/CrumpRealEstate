@@ -3,7 +3,7 @@ This is the [Salesforce.com Mobile SDK](https://github.com/forcedotcom/Salesforc
 
 The goal of this presentation is to show the basics of getting a simple iOS app set up using the Salesforce.com Mobile SDK.
 
-The app is built and tested on version 1.2.2 of the iOS Mobile SDK.
+The app is built and tested on version 1.2.2 of the [Salesforce Mobile SDK for iOS](https://github.com/forcedotcom/SalesforceMobileSDK-iOS). You'll want to clone that first (and run the install scripts) before trying to build this app.
 
 #Getting this app set up in your own Database.com org
 You can sign up for a Database.com account at http://database.com/
