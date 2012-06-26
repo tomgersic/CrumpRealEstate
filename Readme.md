@@ -12,7 +12,7 @@ You can sign up for a Database.com account at http://database.com/
 
 You will then need to set up the two objects used in this demo: Property and Repair. The metadata for both is included in the aptly named "metadata" folder. You should be able to deploy these with the Force.com IDE, which is based on Eclipse.
 
-The sample data used in the webinar is included in the sampledata folder.
+The sample data used in the webinar is included in the sampledata folder. You can use the Developer Console in Database.com to create the data in your org.
 
 ####Or Salesforce.com
 
