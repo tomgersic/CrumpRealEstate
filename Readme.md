@@ -29,3 +29,6 @@ If you have questions about or issues with this demo, the best way to get help i
 
 #More Help!
 I work for [Model Metrics](http://www.modelmetrics.com/), a [Salesforce.com](http://www.salesforce.com) company. We do mobile apps, so if you need a mobile app, well, that's what we do!
+
+#Screenshot of the app
+![Screenshot](https://github.com/tomgersic/CrumpRealEstate/raw/master/screenshot/CrumpRealEstate.jpg "Screenshot")
