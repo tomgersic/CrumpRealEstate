@@ -1,0 +1,69 @@
+delete [SELECT Id FROM Repair__c];
+delete [SELECT Id FROM Property__c];
+
+Property__c newProperty1 = new Property__c(
+Name='Ronald Crump',
+Address__c='123 5th Avenue',
+Agreed_Selling_Price__c=99999999,
+Baths__c=20,
+Bedrooms__c=20,
+Buyer_Offer_Price__c=99999999,
+City__c='New york',
+Date_on_Market__c=Date.parse('03/10/2011'),
+Date_Sold__c=Date.parse('07/20/2011'),
+Exterior_Features__c='Landscaped Yard',
+Interior_Features__c='Bonus Room',
+Lot_Size__c=34943,
+Other_Details__c='What a great place!',
+Parking__c='Garage',
+Property_Description__c='Beautiful property, perfect for the average billionaire',
+Property_Type__c='Unspecified',
+Square_Footage__c=34943,
+State__c='IL',
+Vendor_Request_Price__c=78923.23,
+Views__c='City/Skyline',
+Work_Completion_Certificate_Awarded__c=true,
+Work_Completion_Certificate_Awarded_Date__c=Date.parse('03/06/2012'),
+Year_Built__c=Date.parse('03/06/1985'),
+Zip_Code__c='10022');
+
+insert newProperty1;
+
+insert new Repair__c(Details__c='Food in the front of the fridge is blocking the food in the back of the fridge.',Property__c=newProperty1.Id);
+insert new Repair__c(Details__c='Coffee table is too far from the sofa to conveniently reach drinks.',Property__c=newProperty1.Id);
+insert new Repair__c(Details__c='Wifi signal does not reach the far end of the tenis court',Property__c=newProperty1.Id);
+insert new Repair__c(Details__c='Walk-in Cuban cigar humidor is too close to walk-in Dominican cigar humidor',Property__c=newProperty1.Id);
+insert new Repair__c(Details__c='Bathroom is out of order.',Property__c=newProperty1.Id);
+insert new Repair__c(Details__c='Garage is on fire.',Property__c=newProperty1.Id);
+insert new Repair__c(Details__c='Some bedrooms are too small.',Property__c=newProperty1.Id);
+
+Property__c newProperty2 = new Property__c(Name='Marren Duffett',
+Address__c='3456 Farnam Street',
+Agreed_Selling_Price__c=1000000000,
+Baths__c=5,
+Bedrooms__c=5,
+Buyer_Offer_Price__c=40000,
+City__c='Omaha',
+Date_on_Market__c=Date.parse('07/12/1950'),
+Date_Sold__c=Date.parse('08/26/1951'),
+Exterior_Features__c='Landscaped Yard',
+Interior_Features__c='Bonus Room',
+Lot_Size__c=34943,
+Other_Details__c='Also owns half the block',
+Parking__c='Garage',
+Property_Description__c='Lovely house bought in 1950 something.',
+Property_Type__c='Unspecified',
+Square_Footage__c=73423,
+State__c='NE',
+Vendor_Request_Price__c=40000.23,
+Views__c='Water',
+Work_Completion_Certificate_Awarded__c=true,
+Work_Completion_Certificate_Awarded_Date__c=Date.parse('03/06/2012'),
+Year_Built__c=Date.parse('03/06/1920'),
+Zip_Code__c='68131');
+
+insert newProperty2;
+
+insert new Repair__c(Details__c='Money counting room is too full of money.',Property__c=newProperty2.Id);
+insert new Repair__c(Details__c='DVR is too full to record America\'s Got Talent.',Property__c=newProperty2.Id);
+insert new Repair__c(Details__c='Piles of money keep falling off table.',Property__c=newProperty2.Id);
