@@ -70,8 +70,8 @@ static NSString *const OAuthRedirectURI = @"https://login.salesforce.com/service
     splitViewController = [[UISplitViewController alloc] init];
     
     //DEMO 1.1.2 Init Nibs for Master and Detail View Controller
-    masterViewController = [[MasterViewController alloc] initWithNibName:@"MasterViewController" bundle:nil];
-    detailViewController = [[DetailViewController alloc] initWithNibName:@"DetailViewController" bundle:nil]; 
+    masterViewController = [[MasterViewController alloc] initWithNibName:@"MasterViewController" bundle:nil]; //Demo 2
+    detailViewController = [[DetailViewController alloc] initWithNibName:@"DetailViewController" bundle:nil]; //Demo 3
     
     //DEMO 1.1.3 Give the Master View Controller a reference to the Detail View Controller
     masterViewController.detailViewController = detailViewController;
