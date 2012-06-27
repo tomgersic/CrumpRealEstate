@@ -61,7 +61,7 @@
 }
 
 /**
- * DEMO 1.2.8 DetailViewContoller implements UISplitViewControllerDelegate interface, and here's what it overrides...
+ * DetailViewContoller implements UISplitViewControllerDelegate interface, and here's what it overrides...
  * In portrait mode, place a "Repairs" button to show the master detail view with the table
  **/
 #pragma mark - Split View Controller delegate methods

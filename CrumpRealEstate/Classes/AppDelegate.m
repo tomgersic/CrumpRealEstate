@@ -30,7 +30,7 @@
 
 // Fill these in when creating a new Remote Access client on Force.com 
 /**
- * Demo 1.3 INITIAL SETUP
+ * Demo 1.2 INITIAL SETUP
  * NOTE: these were populated for you automatically on project creation
  **/
 static NSString *const RemoteAccessConsumerKey = @"3MVG9y6x0357HleevuJH_Obl4CsUp_rwrV0YaKSnpgClm4DCcVVJHaNB7FJ8SUeHuX0lgl3THIRZaT5cuyZ2W";
@@ -60,20 +60,20 @@ static NSString *const OAuthRedirectURI = @"https://login.salesforce.com/service
 //NOTE be sure to call all super methods you override.
 
 /**
- * DEMO 1.2 INITIAL SETUP
+ * DEMO 1.1 INITIAL SETUP
  * newRootController entry method for SDK apps... called by setupNewRootViewController
  * set up the splitViewController here
  **/
 - (UIViewController*)newRootViewController {
     
-    //DEMO 1.2.1 init a UISplitViewController... we are doing an iPad app, after all
+    //DEMO 1.1.1 init a UISplitViewController... we are doing an iPad app, after all
     splitViewController = [[UISplitViewController alloc] init];
     
-    //DEMO 1.2.2 Init Nibs for Master and Detail View Controller
+    //DEMO 1.1.2 Init Nibs for Master and Detail View Controller
     masterViewController = [[MasterViewController alloc] initWithNibName:@"MasterViewController" bundle:nil];
     detailViewController = [[DetailViewController alloc] initWithNibName:@"DetailViewController" bundle:nil]; 
     
-    //DEMO 1.2.3 Give the Master View Controller a reference to the Detail View Controller
+    //DEMO 1.1.3 Give the Master View Controller a reference to the Detail View Controller
     masterViewController.detailViewController = detailViewController;
     
     //Set up the navigation controllers for both views
@@ -95,7 +95,6 @@ static NSString *const OAuthRedirectURI = @"https://login.salesforce.com/service
 }
 
 /**
- * DEMO 1.1 INITIAL SETUP
  * Override the setupNewRootViewController from SFNativeRestAppDelegate because it presents a modal view by default, and
  * we want to use a UISplitViewController (which can't be used in a modal view)
  **/

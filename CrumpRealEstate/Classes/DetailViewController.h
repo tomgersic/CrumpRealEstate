@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 /**
- * DEMO 1.2.7 DetailViewContoller implements UISplitViewControllerDelegate interface
+ * DetailViewContoller implements UISplitViewControllerDelegate interface
  **/
 @interface DetailViewController : UIViewController <UISplitViewControllerDelegate>
 {
